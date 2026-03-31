@@ -4,35 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio13</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 2px;
+            text-align: center;
+        }
+
+
+    </style>
+
 </head>
 <body>
-    <h1>Desafio 13 - Parte 3</h1>
 
     <table>
+
+        <caption>Desafio 13 - Parte 3</caption>
+
 <thead>
     <tr>
-        <th>Área</th>
+        <th rowspan="2" style="background-color: gray;" scope="col">Área</th>
+        <th rowspan="2" style="background-color: gray;" scope="colgroup">Disciplinas</th>
+        <th colspan="3" style="background-color: gray;" scope="colgroup">Notas</th>
+        <th rowspan="2" style="background-color: gray;" scope="colgroup">Média</th>
     </tr>
 
-
+    <tr>
+        <th style="background-color: gray;">Nota 1</th>
+        <th style="background-color: gray;">Nota 2</th>
+       
+    </tr>
 
 </thead>
 
 
 <tbody>
+    <tr>
+        <th rowspan="4" scope="row">Exatas</th>
+        <td>Matemática</td>
+        <td>4.5</td>
+        <td>8.5</td>
+    </tr>
 
+    <tr>
+        <td>Física</td>
+        <td>4.5</td>
+        <td>8.5</td>
+    </tr>
+
+   <tr>
+        <td>Química</td>
+        <td>4.5</td>
+        <td>8.5</td>
+   </tr>
+
+   <tr>
+        <td>Biologia</td>
+        <td>4.5</td>
+        <td>8.5</td>
+   </tr>
+
+   <tr>
+       <th colspan="5" scope="row" style="text-align: left; background-color: gray;">Média de Exatas</th>
+       <td style="background-color: gray;">0.0</td>
+
+    </tr>
+
+
+    <tr>
+        <td rowspan="2">Humanas</td>
+        <td>História</td>
+        <td>4.5</td>
+        <td>8.5</td>
+    </tr>
+
+        
+    <tr>
+        <td>Geografia</td>
+        <td>4.5</td>
+        <td>8.5</td>
+    </tr>
+
+    <tr>
+        <th colspan="5" scope="row" style="text-align: left; background-color: gray;">Média de Humanas</th>
+        <td style="background-color: gray;">0.0</td>
+    </tr>
 
 </tbody>
 
-
-
-
     </table>
-
-
-
-
-
 
 </body>
 </html>
